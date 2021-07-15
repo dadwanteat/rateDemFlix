@@ -1,0 +1,19 @@
+{
+  "name": "ratedemflix",
+  "version": "1.0.0",
+  "description": "Rate the movies you've seen in the database",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadwanteat/rateDemFlix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadwanteat/rateDemFlix/issues"
+  },
+  "homepage": "https://github.com/dadwanteat/rateDemFlix#readme"
+}
