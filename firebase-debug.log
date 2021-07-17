@@ -89,3 +89,15 @@
     at processTicksAndRejections (internal/process/task_queues.js:82:21)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2021-07-17T00:38:30.977Z] ----------------------------------------------------------------------
+[debug] [2021-07-17T00:38:30.979Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dalto\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-07-17T00:38:30.979Z] CLI Version:   9.16.0
+[debug] [2021-07-17T00:38:30.979Z] Platform:      win32
+[debug] [2021-07-17T00:38:30.979Z] Node Version:  v12.18.3
+[debug] [2021-07-17T00:38:30.980Z] Time:          Fri Jul 16 2021 17:38:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2021-07-17T00:38:30.980Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-17T00:38:30.982Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2021-07-17T00:38:31.388Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
