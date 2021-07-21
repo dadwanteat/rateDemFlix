@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
+import "./Row.css";
 
 const base_url = "https://image.tmdb.org/t/p/orignal/";
 
@@ -9,6 +10,7 @@ function Row({ title, fetchUrl }) {
     useEffect(() => {
         async function fetchData() {
             const request = await axios.get(fetchUrl);
+            console.log(request);
             setMovies(request.data.results);
             return request;
         }
@@ -20,7 +22,6 @@ function Row({ title, fetchUrl }) {
             <h2>{title}</h2>
 
             <div className="row_posters">
-                {/* {several row_poster(s)} */}
 
                 {movies.map(movie => (
                     <img 
@@ -34,4 +35,3 @@ function Row({ title, fetchUrl }) {
 }
 
 export default Row
-
